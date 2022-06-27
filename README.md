@@ -1,6 +1,6 @@
 # CheatSvelte
 
-A cheatsheet for Svelte and Sveltekit.
+A cheat sheet for Svelte and Sveltekit.
 
 <!-- ### Installation
 
