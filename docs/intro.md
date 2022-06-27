@@ -3,6 +3,6 @@ slug: /
 sidebar_position: 1
 ---
 
-# Cheatsvelte
+# CheatSvelte
 
 A cheatsheet for Svelte and Sveltekit.

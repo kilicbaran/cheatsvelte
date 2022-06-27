@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Cheatsvelte',
-    tagline: 'Dinosaurs are cool',
-    url: 'https://your-docusaurus-test-site.com',
+    title: 'CheatSvelte',
+    tagline: 'A cheatsheet for Svelte',
+    url: 'https://cheatsvelte.pages.dev',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -38,7 +38,7 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                        'https://github.com/kilicbaran/cheatsvelte/tree/main/',
                 },
                 // blog: {
                 //     showReadingTime: true,
@@ -59,9 +59,9 @@ const config = {
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             navbar: {
-                title: 'Cheatsvelte',
+                title: 'CheatSvelte',
                 logo: {
-                    alt: 'My Site Logo',
+                    alt: 'CheatSvelte Logo',
                     src: 'img/logo.svg',
                 },
                 items: [
@@ -78,6 +78,7 @@ const config = {
                         position: 'right',
                     },
                 ],
+                hideOnScroll: true
             },
             footer: {
                 style: 'dark',
@@ -122,7 +123,7 @@ const config = {
                 //         ],
                 //     },
                 // ],
-                copyright: `Copyright © ${new Date().getFullYear()} Cheatsvelte`,
+                copyright: `Copyright © ${new Date().getFullYear()} CheatSvelte`,
             },
             prism: {
                 theme: lightCodeTheme,

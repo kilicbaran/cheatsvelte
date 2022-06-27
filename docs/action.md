@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 <Tabs groupId="lang">
 <TabItem value="js" label="js" default>
 
-```js title="$lib/actions/myFunction.js"
+```js title="src/lib/actions/myFunction.js"
 export function myFunction(node) {
   // the node has been mounted in the DOM
   return {
@@ -28,9 +28,10 @@ export function myFunction(node) {
 </TabItem>
 <TabItem value="ts" label="ts">
 
+```ts title="src/lib/actions/myFunction.ts"
+import type { Action } from 'svelte/action';
 
-```js title="$lib/actions/myFunction.ts"
-export function myFunction(node) {
+export const myFunction: Action<HTMLElement> = (node) => {
   // the node has been mounted in the DOM
   return {
     destroy() {
@@ -52,7 +53,7 @@ export function myFunction(node) {
 <Tabs groupId="lang">
 <TabItem value="js" label="js" default>
 
-```js title="$lib/actions/clickOutside.js"
+```js title="src/lib/actions/clickOutside.js"
 export function clickOutside(node) {
 	const handleClick = (event) => {
 		if (!node.contains(event.target)) {
@@ -78,7 +79,7 @@ export function clickOutside(node) {
 <TabItem value="ts" label="ts">
 
 
-```js title="$lib/actions/clickOutside.ts"
+```ts title="src/lib/actions/clickOutside.ts"
 import type { Action } from 'svelte/action';
 
 export const clickOutside: Action<HTMLElement> = (node) => {

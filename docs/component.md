@@ -5,11 +5,9 @@ sidebar_position: 3
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-
 # Component
 
-
-<Tabs>
+<Tabs groupId="lang">
 <TabItem value="js" label="js" default>
 
 ```svelte title="Component.svelte"
@@ -29,8 +27,8 @@ div {
 ```
 
 </TabItem>
-<TabItem value="ts" label="ts">
 
+<TabItem value="ts" label="ts">
 
 ```svelte title="Component.svelte"
 <script lang="ts">
