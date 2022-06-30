@@ -18,7 +18,7 @@ npm init vite my-app -- --template svelte
 <TabItem value="sveltekit" label="Sveltekit">
 
 ```sh
-npm init svelte my-app
+npm create svelte my-app
 ```
 
 </TabItem>
