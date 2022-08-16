@@ -28,10 +28,10 @@ import TabItem from '@theme/TabItem';
 ```svelte title="src/routes/__layout.svelte"
 <script>
   import MyAnalytics from "$lib/components/MyAnalytics.svelte";
-  import { prod } from "$app/env";
+  import { dev } from "$app/env";
 </script>
 
-{#if prod}
+{#if !dev}
   <MyAnalytics />
 {/if}
 ```
@@ -60,10 +60,10 @@ import TabItem from '@theme/TabItem';
 ```svelte title="src/routes/__layout.svelte"
 <script lang="ts">
   import MyAnalytics from "$lib/components/MyAnalytics.svelte";
-  import { prod } from "$app/env";
+  import { dev } from "$app/env";
 </script>
 
-{#if prod}
+{#if !dev}
   <MyAnalytics />
 {/if}
 ```
