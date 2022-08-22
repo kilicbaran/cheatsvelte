@@ -25,7 +25,7 @@ import TabItem from '@theme/TabItem';
 </svelte:head>
 ```
 
-```svelte title="src/routes/__layout.svelte"
+```svelte title="src/routes/+layout.svelte"
 <script>
   import MyAnalytics from "$lib/components/MyAnalytics.svelte";
   import { dev } from "$app/env";
@@ -57,7 +57,7 @@ import TabItem from '@theme/TabItem';
 </svelte:head>
 ```
 
-```svelte title="src/routes/__layout.svelte"
+```svelte title="src/routes/+layout.svelte"
 <script lang="ts">
   import MyAnalytics from "$lib/components/MyAnalytics.svelte";
   import { dev } from "$app/env";

@@ -11,19 +11,18 @@ import TabItem from '@theme/TabItem';
 <TabItem value="svelte" label="Svelte" default>
 
 ```sh
-npm init vite my-app -- --template svelte
+npm create vite@latest myapp -- --template svelte
 ```
 
 </TabItem>
 <TabItem value="sveltekit" label="Sveltekit">
 
 ```sh
-npm create svelte my-app
+npm create svelte@latest my-app
 ```
 
 </TabItem>
 </Tabs>
-
 
 ```sh
 cd my-app
@@ -40,6 +39,7 @@ npx svelte-add@latest postcss
 npx svelte-add@latest scss
 npx svelte-add@latest tailwindcss
 ```
+
 For more info: [svelte-add](https://github.com/svelte-add/svelte-add)
 
 ```sh
